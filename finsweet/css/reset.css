@@ -12,7 +12,7 @@ html {
 }
 
 img {
-    width: 100%;
+    display: block;
     max-width: 100%;
 }
 
@@ -24,3 +24,11 @@ a {
 ul {
     list-style: none;
 }
+
+.container {
+    width: 100%;
+    max-width: 131rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+

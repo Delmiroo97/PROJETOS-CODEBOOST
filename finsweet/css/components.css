@@ -1,9 +1,5 @@
 body {
     background-color: var(--tint-blue);
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    margin-top: 2rem;
 }
 
 .subtitle {
