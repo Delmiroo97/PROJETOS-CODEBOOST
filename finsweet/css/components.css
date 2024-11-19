@@ -1,0 +1,107 @@
+body {
+    background-color: var(--tint-blue);
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.subtitle {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: var(--dark-blue);
+}
+
+.card-featured {
+    width: 100%;
+    max-width: 40.5rem;
+    height: 31.6rem;
+    background-color: var(--white);
+    padding-left: 4.8rem;
+    padding: 4.8rem 4rem; 
+}
+
+.card-featured .icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-featured .text h6 {
+    margin-top: 2.5rem;
+    color: var(--dark-blue);
+}
+
+.card-featured .text p {
+    max-width: 32.4rem;
+    color: var(--dark-blue);
+    opacity: 70%;
+    margin-top: 1.2rem;
+}
+
+.card-post {
+    width: 100%;
+    max-width: 40.5rem;
+    display: block;
+    background-color: var(--white);
+}
+
+.card-post .image {
+    width: 100%;
+    height: 28.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-post .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .3s ease;
+}
+
+.card-post:hover .image img {
+    transform: scale(1.1);
+}
+
+.card-post .text {
+    margin-top: 4rem;
+}
+
+.card-post .text span {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: var(--dark-blue);
+    opacity: 70%;
+    display: block;
+    margin-bottom: 1.6rem;
+}
+
+.card-post .text h6 {
+    max-height: 40.5rem;
+    color: var(--dark-blue);
+    margin-bottom: 1.6rem;
+}
+
+.card-post .text p {
+    max-height: 40.5rem;
+    color: var(--dark-blue);
+    opacity: 70%;
+    margin-bottom: 3.2rem;
+}
+
+.card-post .text .subtitle {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.card-post .text .subtitle img {
+    max-width: 2.4rem;
+}
