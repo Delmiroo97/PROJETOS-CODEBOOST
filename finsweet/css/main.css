@@ -118,4 +118,79 @@ header nav .btn:hover {
 .s-hero .text .btns .btn-pricing:hover img {
     transform: translateX(1rem);
 }
+
+.s-work {
+    background-color: var(--grey);
+    padding: 12.8rem 0;
+}
+
+.s-work .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.s-work .container .left-container {
+    width: 100%;
+    max-width: 40.5rem;
+}
+
+.s-work .container .left-container h2 {
+    color: var(--dark-blue);
+}
+
+.s-work .container .left-container p {
+    color: var(--dark-blue);
+    opacity: 70%;
+    margin: 1.6rem 0;
+}
+
+.s-work .container .left-container .btn {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.s-work .container .left-container .btn span {
+    color: var(--royal-blue);
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+}
+
+.s-work .container .left-container .btn img {
+    transition: transform .3s ease;
+}
+
+.s-work .container .left-container .btn:hover img {
+    transform: translateX(10px);
+}
+
+.s-work ul {
+    width: 100%;
+    max-width: 65.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4.8rem 2.5rem;
+}
+
+.s-work ul li {
+    width: 30rem;
+}
+
+.s-work ul li h5 {
+    color: var(--dark-blue);
+    margin-top: 1.6rem;
+   
+}
+
+.s-work ul li p {
+    color: var(--dark-blue);
+    opacity: 70%;
+    margin-top: 1.6rem;
+}
+
+
+
+
     
