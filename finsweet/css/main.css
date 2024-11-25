@@ -396,6 +396,139 @@ header nav .btn:hover {
     gap: 3.2rem ;
 }
 
+.s-blog .container h2 {
+    padding: 12.8rem 0;
+    color: var(--dark-blue);
+}
+
+
+.s-blog .container .all-post {
+    display: flex;
+    gap: 3.2rem;
+    padding-bottom: 12.8rem;
+}
+
+.s-blog .container .card-post .subtitle img {
+    transition: transform .3s ease;
+}
+
+.s-blog .container .card-post .subtitle:hover img {
+    transform: translateX(10px);
+}
+
+footer .main-area {
+    background-color: var(--tint-blue);
+    padding-top: 9.6rem;
+}
+
+footer .main-area .container {
+    display: flex;
+    align-items: flex-start;
+    gap: 14.2rem;
+}
+
+footer .main-area .container .left-container {
+    width: 100%;
+    max-width: 51.7rem;
+}
+
+footer .main-area .container .left-container p {
+    margin-top: 2.3rem;
+    margin-bottom: 8.6rem;
+    max-width: 39.9rem;
+}
+
+footer .main-area .container .left-container .contact {
+    background-color: var(--yellow);
+    padding: 1.8rem 1.8rem 1.6rem 3.7rem;
+}
+
+footer .main-area .container .left-container .contact ul {
+    display: flex;
+    align-items: flex-start;
+    gap: 2.9rem;
+}
+
+footer .main-area .container .left-container .contact ul li strong {
+    display: block;
+}
+
+footer .main-area .container .left-container .contact ul li strong {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    color: var(--dark-blue);
+}
+
+footer .main-area .container .left-container .contact ul li a {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: var(--dark-blue);
+    opacity: 80%;
+}
+
+footer .main-area .container .rigth-container {
+   width: 100%;
+   max-width: 39.9rem;
+}
+
+footer .main-area .container .rigth-container p {
+    margin-top: 1.4rem;
+    margin-bottom: 2.8rem;
+}
+
+footer .main-area .container .rigth-container ul {
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+}
+
+footer .second-area {
+    width: 100%;
+}
+
+footer .second-area .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.6rem 0px;
+    padding-left: 1.3rem;
+}
+
+footer .second-area .container p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: var(--dark-blue);
+}
+
+footer .second-area .container ul {
+    display: flex;
+    gap: 2.6rem;
+}
+
+footer .second-area .container ul a {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: var(--dark-blue);
+}
+
+footer .second-area .container ul a {
+    transition: opacity .3s ease;
+}
+
+footer .second-area .container ul a:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
 
 
 
