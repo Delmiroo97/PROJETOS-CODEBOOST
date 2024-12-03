@@ -524,6 +524,124 @@ footer .second-area .container ul a:hover {
     opacity: 0.8;
 }
 
+@media (max-width: 1200px) {
+
+    .s-hero {
+        padding-top: 14.8rem;
+        padding-bottom: 6rem;
+    }
+
+    .s-hero .ilustra {
+        max-width: 53rem;
+    }
+
+    .s-work {
+        padding: 6rem 0;
+    }
+
+    .s-work .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6rem;
+    }
+
+    .s-work .container .left-container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s-work ul {
+        max-width: 100%;
+        gap:  4rem 2%;
+    }
+
+    .s-work ul li {
+        max-width: 48%;
+    }
+}
+
+@media (max-width: 991px) {
+    header nav ul {
+        display: none;
+    }
+    .s-hero .container {
+        flex-direction: column-reverse;
+        gap: 4rem;
+    }
+
+    .s-hero .container .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+     }
+}
+
+@media (max-width: 560px) {
+    header nav .btn {
+        padding: 1rem 3.8rem;
+        font-size: 1.4rem;
+    }
+
+    .s-hero {
+        padding-top: 10rem;
+        margin-bottom: 4rem;
+    }
+    
+    .s-hero .ilustra {
+        max-width: 100%;
+    }
+
+    .s-hero .container .text h1 {
+        font-size: 4.2rem;
+        line-height: 120%;
+     }
+
+     .s-hero .container .text p {
+        margin-top: 2rem;
+        margin-top: 2rem;
+        max-width: 100%;
+     }
+
+     .s-hero .container .btns {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+     }
+
+     .s-work {
+        padding: 4rem 0;
+    }
+
+    .s-work .container .left-container h2 {
+        font-size: 3.6rem;
+        line-height: 120%;
+    }
+
+    .s-work ul {
+        justify-content: center;
+    }
+
+     .s-work ul li {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .s-work ul li img {
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+
+    .s-work ul li h3 {
+        font-size: 2.4rem;
+        line-height: 1;
+    }
+
+}
+
 
 
 
