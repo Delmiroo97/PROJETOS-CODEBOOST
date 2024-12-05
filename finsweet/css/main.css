@@ -611,13 +611,25 @@ footer .second-area .container ul a:hover {
         flex-direction: column-reverse;
         gap: 4rem;
     }
-
+    
     .s-hero .container .text {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
      }
+
+     .s-work ul {
+        justify-content: center;
+    }
+
+    .s-work ul li img {
+        margin: 0 auto;
+    }
+
+    .s-work ul li h5, p {
+        text-align: center;
+    }
 
      .s-project .all-projects {
         flex-direction: column;
