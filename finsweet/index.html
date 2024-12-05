@@ -10,6 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seja Bem Vindo ao Finsweet</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/typography.css">
@@ -35,7 +36,7 @@
     </header>
         <section class="s-hero">
             <div class="container">
-                <div class="text">
+                <div class="text" data-aos="fade-right">
                     <h1>Building stellar websites for early startups</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     <div class="btns">
@@ -46,13 +47,13 @@
                         </a>
                     </div>
                 </div>
-                <img src="img/Illustration-hero.svg" class="ilustra" alt="">
+                <img src="img/Illustration-hero.svg" class="ilustra" alt="" data-aos="fade-left">
             </div>
         </section>
 
         <section class="s-work">
             <div class="container">
-                <div class="left-container">
+                <div class="left-container" data-aos="fade-right">
                     <h2>How we work</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     <a href="#" class="btn">
@@ -60,7 +61,7 @@
                         <img src="img/Arrow-rigth-blue.svg" alt="#">
                     </a>
                 </div>
-                <ul>
+                <ul data-aos="fade-left">
                     <li>
                         <img src="img/bg-iten-works01.svg" alt="">
                         <h5>Strategy</h5>
@@ -85,9 +86,9 @@
             </div>
         </section>
 
-        <section class="s-project">
+        <section class="s-project"> 
             <div class="container">
-                <div class="top">
+                <div class="top" data-aos="fade-right">
                     <h2>View our projects</h2>
                     <a href="#" class="btn">
                         <span class="subtitle">View More</span>
@@ -96,7 +97,7 @@
                 </div>
 
                 <div class="all-projects">
-                   <a href="#" class="card-project-featured">
+                   <a href="#" class="card-project-featured" data-aos="fade-up">
                     <img src="img/project-01.jpg" alt="#">
                     <div class="overlay">
                         <h6>Workhub office Webflow Webflow Design</h6>
@@ -105,7 +106,7 @@
                     </div>
                    </a>
 
-                   <div class="second-projects">
+                   <div class="second-projects" data-aos="fade-left">
                     <a href="#" class="card-projects">
                         <div class="image">
                             <img src="img/project-02.jpg" alt="">
@@ -132,12 +133,12 @@
 
         <section class="s-features">
             <div class="container">
-                <div class="title">
+                <div class="title" data-aos="fade-left">
                     <span class="subtitle">Features</span>
                     <h2>Design that solves problems, one product at a time</h2>
                 </div>
                 <div class="all-cards">
-                    <div class="card-featured">
+                    <div class="card-featured" data-aos="flip-left">
                         <div class="icon">
                             <img src="img/Icon-client.svg" alt="">
                         </div>
@@ -147,7 +148,7 @@
                             <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.</p>
                         </div>
                     </div>
-                    <div class="card-featured">
+                    <div class="card-featured" data-aos="flip-left">
                         <div class="icon">
                             <img src="img/Icon-revision.svg" alt="">
                         </div>
@@ -157,7 +158,7 @@
                             <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.</p>
                         </div>
                     </div>
-                    <div class="card-featured">
+                    <div class="card-featured" data-aos="flip-left">
                         <div class="icon">
                             <img src="img/Icon-template.svg" alt="">
                         </div>
@@ -167,7 +168,7 @@
                             <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.</p>
                         </div>
                     </div>
-                    <div class="card-featured">
+                    <div class="card-featured" data-aos="flip-left">
                         <div class="icon">
                             <img src="img/Icon-suport.svg" alt="">
                         </div>
@@ -177,7 +178,7 @@
                             <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.</p>
                         </div>
                     </div>
-                    <div class="card-featured">
+                    <div class="card-featured" data-aos="flip-left">
                         <div class="icon">
                             <img src="img/icon-delivery.svg" alt="">
                         </div>
@@ -187,7 +188,7 @@
                             <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi.</p>
                         </div>
                     </div>
-                    <div class="card-featured">
+                    <div class="card-featured" data-aos="flip-left">
                         <div class="icon">
                             <img src="img/Icon-hands.svg" alt="">
                         </div>
@@ -203,9 +204,9 @@
 
         <secttion class="s-blog">
             <div class="container">
-                <h2>Our blog</h2>
+                <h2 data-aos="fade-down">Our blog</h2>
 
-                <div class="all-post">
+                <div class="all-post" data-aos="fade-up">
                     <a href="#" class="card-post">
                         <div class="image">
                             <img src="img/post-01.jpg" alt="#">
@@ -255,7 +256,7 @@
         <footer>
             <div class="main-area">
                 <div class="container">
-                    <div class="left-container">
+                    <div class="left-container" data-aos="fade-right">
                         <img src="img/logo-finsweet.svg" alt="logo-finsweet">
                         <p>We are always open to discuss your project and improve your online presence.</p>
                         <div class="contact">
@@ -273,7 +274,7 @@
                         </div>
                     </div>
 
-                    <div class="rigth-container">
+                    <div class="rigth-container" data-aos="fade-left">
                         <h2>Lets Talk!</h2>
                         <p>We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
                         <ul>
@@ -329,6 +330,16 @@
                 </div>
             </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init({
+                duration: 1000,
+                once: true,
+                diable: 'mobile'
+            });
+        </script>
 </body>
 </body>
 </html>
