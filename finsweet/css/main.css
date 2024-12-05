@@ -623,6 +623,11 @@ footer .second-area .container ul a:hover {
         justify-content: center;
     }
 
+    .s-work ul li {
+        gap: 5rem;
+    }
+
+
     .s-work ul li img {
         margin: 0 auto;
     }
