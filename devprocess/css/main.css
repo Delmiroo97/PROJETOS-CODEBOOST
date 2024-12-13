@@ -1,0 +1,49 @@
+header {
+    width: 100%;
+    background-color: #000407E5;
+    padding: 1.6rem 11.2rem;
+}
+
+header .container {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .logo-image {
+    display: flex;
+    gap: 2.4rem;
+}
+
+
+header .container nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
+}
+
+header .container nav ul li {
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.1rem;
+}
+
+header .container .btn {
+    padding: .95rem 2.4rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.1rem;
+    background-color: transparent;
+    border-radius: 3.2rem;
+    border: 2px solid #2F2F3B;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+header .container .btn:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
