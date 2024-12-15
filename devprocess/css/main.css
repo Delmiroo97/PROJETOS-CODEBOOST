@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    background-color: #000407E5;
+    background-color: #000000;
     padding: 1.6rem 11.2rem;
 }
 
@@ -23,7 +23,7 @@ header .container nav ul {
     gap: 6rem;
 }
 
-header .container nav ul li {
+header .container nav ul li a {
     color: #FFFFFF;
     font-size: 1.4rem;
     font-weight: 600;
@@ -47,3 +47,175 @@ header .container .btn:hover {
     background-color: #FFFFFF;
     color: #000000;
 }
+
+.s-hero {
+    position: relative;
+    width: 100%;
+    height: 80rem;
+    background: url(../img/bg_hero.png) no-repeat center center;
+    padding-top: 12rem;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.s-hero .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-hero .container .container-left .details-left .left {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background-color: #1B1B21;
+    color: #C0C0CC;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 150%;
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.s-hero .container .container-left .details-left .rigth {
+    display: inline-block;
+    margin-left: -3px;
+    padding: 0.6rem  1.0rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 150%;
+    background-color: #25252E;
+    color: #ffffff;
+}
+
+.s-hero .container .container-left .text-left h1 {
+    font-family: "Mohave", sans-serif;
+    font-weight: 750;
+    font-size: 5.6rem;
+    text-transform: uppercase;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 1.4rem;
+}
+
+.s-hero .container .container-left .text-left p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+    color: #FFFFFF;
+    max-width: 62.2rem;
+}
+
+.s-hero .container .container-rigth {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.s-hero .container .container-rigth span {
+    display: inline-block;
+    width: 3.2rem;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F09104;
+    color: #FFFFFF;
+    border-radius: 0.6rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.6rem;
+}
+
+.s-hero .container .container-rigth  p {
+    text-align: right;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #FFFFFF;
+}
+
+.s-hero .container .container-left .text-bottom {
+    margin-top: 4.8rem;
+    margin-bottom: 7.2rem; 
+}
+.s-hero .container .container-left .text-bottom h2 {
+    font-family: "Mohave", sans-serif;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 2.4rem;
+}
+
+.s-hero .container .container-left .text-bottom .bottom-details {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.s-hero .container .container-left .text-bottom .bottom-details a {
+    padding: 1.6rem 4rem;
+    background-color: #F55827;
+    color: #FFFFFF;
+    border-radius: 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    text-align: center;
+    border: 0.2rem solid transparent;
+    transition: .3s ease;
+}
+
+.s-hero .container .container-left .text-bottom .bottom-details a:hover {
+    opacity: 0.9;
+}
+
+.s-hero .container .container-left .text-bottom .bottom-details .heart {
+    width: 5.6rem;
+    height: 5.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid 0.2rem #2F2F3B;
+    transition: .3s ease;
+}
+
+.s-hero .container .container-left .text-bottom .bottom-details .heart:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.s-hero .container .container-left .list-details ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.s-hero .container .container-left .list-details ul li {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.s-hero .container .container-left .list-details ul li img  {
+    width: 2.2rem;
+    height: 1.8rem;
+}
+  
+.s-hero .container .container-left .list-details ul li p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #F2F2FF;
+}
+
+.s-hero .container .container-left .list-details ul li strong {
+    font-size: 2.5rem;
+    padding: 0 2rem;
+}
+
+
+
